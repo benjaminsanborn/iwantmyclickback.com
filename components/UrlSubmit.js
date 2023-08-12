@@ -8,7 +8,6 @@ export default function UrlSubmit() {
       data-netlify-honeypot="bot-field"
       name="urlsubmit"
       method="POST"
-      action="/success"
     >
       <input type="hidden" name="form-name" value="urlsubmit" />
       <p className={styles.hidden}>
@@ -17,9 +16,9 @@ export default function UrlSubmit() {
         </label>
       </p>
 
-      <label htmlForm="url">URL</label>
+      <label htmlFor="url">Paste the URL below:</label>
       <input id="url" className={styles['form-field']} type="text" name="url" />
-      <button className={styles.button} type="submit">Submit</button>
+      <button className={styles.button} type="submit">Gimme My Click Back!</button>
     </form>
   )
 }

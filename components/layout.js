@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import styles from './layout.module.css';
 import Link from 'next/link';
 import Footer from "@components/Footer";
+import Links from './links';
 
 export const siteTitle = 'iwantmyclickback.com';
 
@@ -31,10 +32,7 @@ export default function Layout({ children, home }) {
                             alt="Image by anartelman @ https://www.123rf.com/profile_anartelman"
                         />
                         <h1 className={utilStyles.heading2Xl}>{siteTitle}</h1>
-                        <div className={styles.links}>
-                            <Link href="why">why</Link> | <Link href="roadmap">roadmap</Link>
-                        </div>
-
+                        {/* <Links /> */}
                     </>
                 ) : (
                     <>

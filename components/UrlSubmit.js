@@ -30,7 +30,7 @@ export default function UrlSubmit() {
 
       <label htmlFor="url">Paste the URL below:</label>
       <input id="url" className={styles['form-field']} type="text" name="url" />
-      <button className={styles.button} type="submit" onClick={handleClick}>Gimme My Click Back!</button>
+      <button className={styles.button} type="submit">I wish I never clicked!</button>
     </form>
   )
 }

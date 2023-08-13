@@ -8,11 +8,6 @@ export default function Home() {
     <Layout home>
       <main>
         <UrlSubmit />
-        <div>
-          <h1>Stats</h1>
-          <i>Updated Daily!</i>
-          <TopArticles />
-        </div>
       </main>
     </Layout>
   );

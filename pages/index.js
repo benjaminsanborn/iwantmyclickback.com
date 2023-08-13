@@ -1,25 +1,19 @@
-import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
 import UrlSubmit from "@components/UrlSubmit";
+import TopDomains from "@components/TopDomains";
+import TopArticles from "@components/TopArticles";
+import Layout from "@components/layout";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>iwantmyclickback.com</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout home>
       <main>
-        <Header title="iwantmyclickback! .com!" />
-        <hr />
-        <p className="description">
-          Do you want your click back? Enter it below!
-        </p>
         <UrlSubmit />
+        <div>
+          <h1>Stats</h1>
+          <i>Updated Daily!</i>
+          <TopArticles />
+        </div>
       </main>
-      <Footer />
-    </div>
+    </Layout>
   );
 }

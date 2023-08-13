@@ -1,5 +1,17 @@
 import styles from './UrlSubmit.module.css'
 
+
+function handleClick() {
+  console.log("increment like count")
+  //e.preventDefault();
+  //button.classList.add('btn--clicked');
+  //document.querySelectorAll('span').forEach((element) => { element.classList.add('expanded') })
+
+  //setTimeout(() => { button.classList.remove("btn--clicked") }, 3500);
+  //setTimeout(() => { document.querySelectorAll('span').forEach((element) => { element.classList.remove('expanded') }) }, 1700)
+}
+
+
 export default function UrlSubmit() {
   return (
     <form
@@ -18,7 +30,7 @@ export default function UrlSubmit() {
 
       <label htmlFor="url">Paste the URL below:</label>
       <input id="url" className={styles['form-field']} type="text" name="url" />
-      <button className={styles.button} type="submit">Gimme My Click Back!</button>
+      <button className={styles.button} type="submit" onClick={handleClick}>Gimme My Click Back!</button>
     </form>
   )
 }

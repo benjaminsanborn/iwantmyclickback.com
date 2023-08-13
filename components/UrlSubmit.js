@@ -28,8 +28,8 @@ export default function UrlSubmit() {
         </label>
       </p>
 
-      <label htmlFor="url">Paste the URL below:</label>
-      <input id="url" className={styles['form-field']} type="text" name="url" />
+      <label htmlFor="url">Paste the complete URL below:</label>
+      <input id="url" className={styles['form-field']} type="url" name="url" required />
       <button className={styles.button} type="submit">I wish I never clicked!</button>
     </form>
   )

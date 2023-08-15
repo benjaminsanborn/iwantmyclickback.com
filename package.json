@@ -1,16 +1,13 @@
 {
-  "name": "nextjs-toolbox",
+  "name": "iwantmyclickback.com",
   "version": "1.0.0",
-  "author": "Netlify Inc",
+  "author": "benjaminsanborn",
   "contributors": [
-    "Tara Manicsic",
-    "Prince Wilson",
-    "Charlie Gerard",
-    "Ben Hong"
+    "Benjamin Currie"
   ],
-  "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
+  "homepage": "https://iwantmyclickback.com",
   "bugs": {
-    "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
+    "url": "https://github.com/benjaminsanborn/iwantmyclickback"
   },
   "scripts": {
     "dev": "next dev",

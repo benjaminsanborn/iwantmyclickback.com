@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <Layout home>
       <main>
+        <p>Did you just read a low-effort article on the internet and regret increasing CTR stats? Get your click back! Submit the URL below and be forgiven</p>
         <UrlSubmit />
         <TopDomains />
         <TopArticles />

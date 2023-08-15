@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
                             alt="Image by anartelman @ https://www.123rf.com/profile_anartelman"
                         />
                         <h1 className={utilStyles.heading2Xl}>{siteTitle}</h1>
-                        {/* <Links /> */}
+                        <Links />
                     </>
                 ) : (
                     <>

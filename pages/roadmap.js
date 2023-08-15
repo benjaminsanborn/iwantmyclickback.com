@@ -5,12 +5,10 @@ export default function Why() {
         <Layout>
             <h1>Roadmap</h1>
             <ul>
-                <li>iwantmyclickback Chrome Extension</li>
-                <ul>
-                    <li>Submit urls with one click!</li>
-                    <li>Get warned of heavily clicked-back links!</li>
-                </ul>
+                <li>On-submit metadata extraction - <i>Coming Soon!</i></li>
                 <li>Live Stats Reporting</li>
+                <li>iwantmyclickback Chrome Extension</li>
+                <li>twitterbot</li>
             </ul>
         </Layout>
     )
